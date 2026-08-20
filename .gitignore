@@ -1,0 +1,42 @@
+# KiCad – autosparade och temporära filer
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-bak
+*.bak
+*.bck
+*.kicad_pcb.lck
+*.sch.lck
+*.lck
+_autosave-*
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# KiCad – lokala projektinställningar (per användare, inte delade)
+*.kicad_prl
+
+# KiCad – gamla format-backupfiler
+*.000
+*.sch.bak
+*.kicad_sch.lck
+
+# Backupkatalog som KiCad skapar automatiskt
+*-backups/
+
+# Genererade tillverkningsfiler (kommentera bort om de ska versionshanteras)
+gerbers/
+*.gbr
+*.gbrjob
+*.drl
+
+# Netlistor och exporter
+*.net
+*.xml
+*.csv
+
+# Editor-/systemfiler
+.history/
+*.swp
+*~
+.DS_Store
+Thumbs.db
