@@ -8,8 +8,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U"
-			(at 0 17.018 0)
+		(property "Reference" "U2"
+			(at 0 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "ESP32-C6-DEV-KIT-N8"
-			(at 0 2.286 90)
+			(at 0 -19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73,7 +73,7 @@
 					(type background)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -15.24 24.13 0)
 				(length 2.54)
 				(name "3V3"
@@ -932,8 +932,12 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U"
-			(at 0 5.588 0)
+		(jumper_pin_groups
+			("1" "13")
+			("14" "8")
+		)
+		(property "Reference" "U1"
+			(at 0 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -943,7 +947,7 @@
 			)
 		)
 		(property "Value" "Pololu_H2_36v11_CS"
-			(at 0.254 0 0)
+			(at 0.508 12.192 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1211,6 +1215,99 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -19.05 90)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -19.05 90)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Pololu-5267"
+		(extends "Pololu-5266")
+		(property "Reference" "U"
+			(at 6.858 3.048 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pololu-5267"
+			(at -0.508 7.112 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
