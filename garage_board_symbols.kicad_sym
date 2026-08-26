@@ -926,7 +926,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Pololu_H2_36v11_CS"
+	(symbol "Pololu_2993_H236v11CS"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -946,7 +946,7 @@
 				)
 			)
 		)
-		(property "Value" "Pololu_H2_36v11_CS"
+		(property "Value" "Pololu_2993_H236v11CS"
 			(at 0.508 12.192 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -989,7 +989,7 @@
 				)
 			)
 		)
-		(symbol "Pololu_H2_36v11_CS_1_1"
+		(symbol "Pololu_2993_H236v11CS_1_1"
 			(rectangle
 				(start -16.51 15.24)
 				(end 16.51 -16.51)
@@ -1256,7 +1256,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Pololu-5267"
+	(symbol "Pololu_4892_D30V30F5"
 		(extends "Pololu-5266")
 		(property "Reference" "U"
 			(at 6.858 3.048 0)
@@ -1268,7 +1268,7 @@
 				)
 			)
 		)
-		(property "Value" "Pololu-5267"
+		(property "Value" "Pololu_4892_D30V30F5"
 			(at -0.508 7.112 0)
 			(show_name no)
 			(do_not_autoplace no)
