@@ -1,0 +1,155 @@
+(footprint "Fuseholder_5x20mm_Lateral_P20.00x5.00mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Littelfuse 111 (501 and 506), https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_111_datasheet.pdf.pdf")
+	(tags "fuse clip open")
+	(property "Reference" "REF**"
+		(at 9.4 -5 0)
+		(layer "F.SilkS")
+		(uuid "08b938f0-61c7-4a9c-994b-880a30036ddf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuseholder_5x20mm_Lateral_P20.00x5.00mm"
+		(at 9.4 9 0)
+		(layer "F.Fab")
+		(uuid "5a67104f-069e-4c40-ac42-8fd509d219f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e3e2e64-63f0-43ab-9b00-4fd188331134")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5185061-ff39-44a8-8b72-d019bd1460c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.5 -2.5)
+		(end -2.5 7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7ea8c5c-242b-43b9-bd0c-46f139ed1064")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 22.5 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bae394fe-c1a4-4246-b4ef-00a798103603")
+	)
+	(fp_line
+		(start 22.5 7)
+		(end -2.5 7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21836c66-874f-471a-9092-78f0f28f71dc")
+	)
+	(fp_line
+		(start 22.5 7)
+		(end 22.5 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cbf8d2b0-8c7c-41ad-b46a-3b5cebbc9bb2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 9.4 2.5 0)
+		(layer "F.Fab")
+		(uuid "481b183e-8998-4626-a9b2-7f14a85c5918")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "cfd66d02-8a9e-4fce-8ddd-e8877f66d7fc")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 4.5)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "bb75992c-5109-481b-8299-c83aa1f9bf35")
+	)
+	(pad "2" thru_hole circle
+		(at 20 0)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "891d6840-9fc9-4450-aaa1-b15b3488cf41")
+	)
+	(pad "2" thru_hole circle
+		(at 20 4.5)
+		(size 3.5 3.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a8b22570-57f0-4342-aad2-d4faebcb749e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Clip-5x20mm_Littelfuse_111_Lateral_P18.80x5.00mm_D1.17mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

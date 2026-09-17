@@ -1,0 +1,104 @@
+(footprint "Switch"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "push button")
+	(tags "switch button")
+	(property "Reference" "REF**"
+		(at 14.985 -6.24 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "687d3b4c-9764-41d2-b391-d2c3c4961fb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Switch"
+		(at 14.985 6.29 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad78edff-e5a8-429b-9ee7-84650ababc1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87aabea9-e15d-41aa-86cb-b04145bcf00c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6931ad87-5f28-4b45-8d22-75a69acac885")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "" np_thru_hole roundrect
+		(at -1.25 -2.5)
+		(size 1.5 1.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "293a6bd4-1df8-4979-81bc-cb2169a691d6")
+	)
+	(pad "" np_thru_hole roundrect
+		(at 5.75 -2.5)
+		(size 1.5 1.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "9ec4373e-0241-49b0-b2df-a4002c8d38af")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "38780b5d-51c9-4f40-97fe-830a5d429ca8")
+	)
+	(pad "2" thru_hole circle
+		(at 4.5 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2dd2141f-c518-4d1e-890c-653e41500cca")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector.3dshapes/Banana_Jack_2Pin.step"
+		(offset
+			(xyz 14.98599977 0 0)
+		)
+		(scale
+			(xyz 2 2 2)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
